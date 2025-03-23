@@ -10,6 +10,8 @@ npm install eslint-plugin-react-query-must-invalidate-queries --save-dev
 yarn add eslint-plugin-react-query-must-invalidate-queries --dev
 # or
 pnpm add eslint-plugin-react-query-must-invalidate-queries --save-dev
+# or
+bun add eslint-plugin-react-query-must-invalidate-queries --dev
 ```
 
 ## Usage
@@ -24,6 +26,8 @@ Add `react-query-must-invalidate-queries` to the plugins section of your `.eslin
   }
 }
 ```
+
+> You can see a real world config here using this: <https://github.com/ayinke-llc/malak/blob/main/web/ui/eslint.config.mjs>
 
 ## Rules
 
