@@ -98,7 +98,7 @@ useMutation({
 
 You might want to disable this rule if:
 
-- You have mutations that intentionally don't need to invalidate any queries (e.g., analytics-only mutations)
+- You have mutations that intentionally don't need to invalidate any queries
 - You're handling cache updates through other means like `setQueryData`
 - You have a specific caching strategy that doesn't require query invalidation
 
